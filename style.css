@@ -135,7 +135,9 @@ span{
  
  
 }
-
+span:hover{
+    border-color:#ece9e5;
+}
 #centro{
    /*centralizar bloco */
   margin-left:40%;
