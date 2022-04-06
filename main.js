@@ -8,7 +8,7 @@ function grupoa(){
 function grupob(){
   var pga=document.getElementById('gb')
   var pres=document.getElementById('res')
-  pres.innerHTML=(' <table><h1>&nbsp;GrupoB</h1><br><th><td><img src="img/inglaterra.png" width=90px><br>Inglaterra</td></tr><br><th><td><img src="img/ira.png"width=90px><br>Irã</td></tr><th><td><img src="img/eua.png"width=90px>Estados Unidos</td></tr><th><td><img src="img/repeur.png"width=90px>Repescagem Europa</td></tr>')
+  pres.innerHTML=(' <table><h1>&nbsp;GrupoB</h1><th><td><img src="img/inglaterra.png" width=90px><br>Inglaterra</td></tr><br><th><td><img src="img/ira.png"width=90px><br>Irã</td></tr><th><td><img src="img/eua.png"width=90px>Estados Unidos</td></tr><th><td><img src="img/repeur.png"width=90px>Repescagem Europa</td></tr>')
   
 }
 function grupoc(){
