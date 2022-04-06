@@ -137,6 +137,7 @@ span{
 }
 span:hover{
 background-color:#363636;
+border-color:#363636;
 }
 #centro{
    /*centralizar bloco */
