@@ -1,0 +1,174 @@
+body {
+    font-size: 15pt;
+    background-image:url('img/fundo.jpg');
+    height:70%;
+    
+}/*campo de publicação*/
+#content{
+  /*centralizar bloco */
+  margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+ /*fim*/
+  font-size: 15pt;
+    width:70%;
+    height:1100px;
+    background-color:#ece9e5;
+}
+#curriculum{
+  border:solid 2px;
+  background-color: #363636;
+  margin-top: 10px;
+  width: 105%;
+  margin-left: -20px;
+  
+  position:fixed;
+  top: -10px;
+  display:inline;
+  z-index: 2;
+  
+}
+
+nav{
+ 
+  margin-left: 10%;
+  font-size: 50px;
+  
+}
+a{
+  font-size:20px!important;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 180px;
+}
+
+@media(max-width:480px){
+  a{
+   margin-left: 10px;
+   display:inline-block;
+   font-size: 10px;
+    
+  }
+}
+ /*copadomundo*/
+ 
+#nome{
+  font-size: 30px;
+  text-align: center;
+  margin-top:20px;
+  font-family: 'Lobster', cursive;
+  font-style: normal;
+  color:#9d072d;
+}
+
+.logo{
+ max-width:50%;
+    /*centralizar bloco */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 60px;
+ /*fim*/
+  
+}
+/*otimização para smartphones logo e textos*/
+@media(max-width:450px){
+  #nome{
+    font-size: 20px;
+
+}
+}
+h6{
+  font-family: 'Times New Roman', Times, serif;
+  
+  text-align: center;
+  margin-top:-750px;
+}
+#res{
+    /*centralizar bloco */
+   color:black;
+  position:absolute;
+  margin: 20px;
+  margin-left:45%;
+  margin-right:45%;
+  width: 9em;
+  height:auto;
+ /*fim*/
+ font-size:15px;
+ 
+
+}
+@media(max-width:480px){
+  #res{
+    
+  margin-left:60px;
+ font-size:2px;
+ margin-left:120px;
+  margin-right:120px;
+  width: 2em;
+ 
+}
+}
+span{
+  
+  font-size: 30px;
+  border:solid;
+  border-color:#9d072d;
+  background-color: #9d072d;
+  color:white;
+  border-left-width: 5px;
+  border-bottom-width:5px;
+  display:inline;
+ 
+ 
+}
+
+#centro{
+   /*centralizar bloco */
+  margin-left:40%;
+  margin-right:auto;
+  width: 20em;
+ /*fim*/
+}
+@media(max-width:480px){
+  #centro{
+  margin-left: 60px;
+  margin-right:auto;
+  width: 13em;
+}
+}
+footer{
+  
+  text-align: center;
+  border:solid 2px#9d072d;
+  background-color:#9d072d;
+  width:100%;
+  height:200px;
+  margin-left:-7px;
+  margin-top:409px;
+  position:absolute;
+  color:black;
+  
+}
+@media(max-width:480px){
+  footer{
+    margin-left:-9px;
+    height:250px;
+     
+     position:absolute;
+
+}
+}
+p{
+  display:inline;
+  margin-left:-180px;
+}
+@media(max-width:480px){
+  p{
+  display:inline;
+  margin-left:2px;
+}
+}
