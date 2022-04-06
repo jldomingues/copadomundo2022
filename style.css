@@ -4,7 +4,7 @@ body {
     height:70%;
     
 }/*campo de publicação*/
-#content{
+#container{
   /*centralizar bloco */
   margin: 2px;
   margin-left: auto;
@@ -15,6 +15,11 @@ body {
     width:70%;
     height:1100px;
     background-color:#ece9e5;
+}
+@media(max-width:450px){
+  #container{
+    width:90%;
+}
 }
 #curriculum{
   border:solid 2px;
@@ -35,6 +40,12 @@ nav{
   margin-left: 10%;
   font-size: 50px;
   
+}
+@media(max-width:450px){
+ nav{
+    margin-left: -30px;
+    
+  }
 }
 a{
   font-size:20px!important;
