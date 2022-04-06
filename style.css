@@ -164,6 +164,7 @@ footer{
   margin-top:409px;
   position:absolute;
   color:black;
+    z-index:3;
   
 }
 @media(max-width:480px){
