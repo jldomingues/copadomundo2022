@@ -45,6 +45,6 @@ function grupog(){
 function grupoh(){
   var pga=document.getElementById('gh')
   var pres=document.getElementById('res')
-  pres.innerHTML=(' <table><h1>&nbsp;GrupoH</h1><th><td><img src="img/portugal.png" width=90px><br>Portugal</td></tr><th><td><img src="img/gana.png"width=90px><br>Gana</td></tr><th><td><img src="img/uruguai.png"width=90px>Uruguai</td></tr><th><td><img src="img/coreiadosul.png"width=90px><br>Coreia do Sul</td></tr>')
+  pres.innerHTML=(' <table><h1>&nbsp;GrupoH</h1><th><td><img src="img/portugal.png" width=90px><br>Portugal</td></tr><th><td><img src="img/gana.png"width=90px><br>Gana</td></tr><th><td><img src="img/uruguai.png"width=90px>Uruguai</td></tr><th><td><img src="img/coreiadosul.png"width=90px><br>Coréia do Sul</td></tr>')
   
 }
